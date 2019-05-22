@@ -220,6 +220,13 @@ Whether Chrome follows a redirect on the first request if a redirect is encounte
 
 `Default: false`
 
+### pdfOptions
+```
+// Example goes here
+```
+
+Additional options for PDF generation can be set using the `pdfOptions` parameter. See: [Puppeteer PDF Options](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagepdfoptions)
+
 ## Plugins
 
 We use a plugin system in the same way that Connect and Express use middleware. Our plugins are a little different and we don't want to confuse the prerender plugins with the [prerender middleware](#middleware), so we opted to call them "plugins".
